@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "订单详情",
+  "usingComponents": {
+    "my-like": "/components/cainiXihuan/xihuan",
+    "my-header": "/components/header/header"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "通知消息",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "my-header": "/components/header/header"
+  }
+}

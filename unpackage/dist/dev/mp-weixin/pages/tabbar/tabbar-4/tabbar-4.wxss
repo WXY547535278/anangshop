@@ -1,0 +1,137 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+page.data-v-4369964a {
+  background-color: #F0F0F0;
+}
+.content.data-v-4369964a {
+  width: 100%;
+  height: 100%;
+  padding-top: 92rpx;
+  padding-bottom: 30rpx;
+  background-color: #F0F0F0;
+}
+.content-header.data-v-4369964a {
+    position: fixed;
+    z-index: 1000;
+    background-color: #F0F0F0;
+    top: 0;
+    width: 100%;
+    height: 42rpx;
+    padding-top: 50rpx;
+    font-size: 24rpx;
+    line-height: 24rpx;
+    display: inline-block;
+}
+.content-header .back image.data-v-4369964a {
+      float: left;
+      width: 16rpx;
+      height: 26rpx;
+      margin-left: 22rpx;
+}
+.content-header .title.data-v-4369964a {
+      margin-left: 290rpx;
+}
+.content-items.data-v-4369964a {
+    width: 100%;
+}
+.content-items .content-item.data-v-4369964a {
+      width: 706rpx;
+      height: 242rpx;
+      margin: 22rpx;
+      background: white;
+      border-radius: 6rpx 6rpx 6rpx 6rpx;
+      -webkit-box-shadow: 0 0 10rpx 0px rgba(116, 116, 116, 0.2);
+              box-shadow: 0 0 10rpx 0px rgba(116, 116, 116, 0.2);
+}
+.content-items .content-item .jieshao.data-v-4369964a {
+        width: 100%;
+        height: 188rpx;
+        position: relative;
+        border-bottom: 1px solid #EFEFEF;
+}
+.content-items .content-item .jieshao .xinxi.data-v-4369964a {
+          width: 70%;
+          height: 100%;
+          padding: 20rpx 0 0 24rpx;
+          line-height: 40rpx;
+}
+.content-items .content-item .jieshao .xinxi view.data-v-4369964a {
+            color: #A1A1A1;
+}
+.content-items .content-item .jieshao .xinxi .name.data-v-4369964a {
+            color: #000;
+}
+.content-items .content-item .jieshao .xinxi .tubiao.data-v-4369964a {
+            width: 26rpx;
+            height: 20rpx;
+            margin-right: 10rpx;
+            background-size: contain;
+            background-repeat: no-repeat;
+            display: inline-block;
+}
+.content-items .content-item .jieshao .xinxi .wechat.data-v-4369964a {
+            background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAAPCAYAAAAGRPQsAAACSklEQVQ4T42TT2gTURDGv5nsriSFFin1JCjqQZFWQcSLB+9SDx6UIooghqTZNNSeKj0IXsPG1i4YECopiIqngiIexIuIoAiiBUEQPPgHxEtp3Cx5+8lLU4i1W3yn2X0zP76Zb56g51QqlRFjzEWSRwHsFJEYwDLJp57n3anVar978zfGsv6jXC7fJOmnJavqt5WVlYmFhYWHaTkdWKlUWhKR0W5SE0DOxiKCJEls2FLVbfbbGHMhDMPFzYBSKpXOiMj97uW9+fn5Md/36wDyxhhks9mTQRA8Hh8f/+k4zmAcx2g2m4cajca7f9r0ff8tgMP2guQbVa0BKJA8bmG5XO4Wye9RFF1T1ecAvniedyMIAlv31xHf9+2Q3U1lr7Vl27UqplV1gOQOETnQbrd/JEnysl6vP1mvtbBfALanDdUYU/U8r5okyWySJGft3EhCVTslJF+RvBSG4Qcpl8t3SY6lKHtG8jzJ5a4qA8BSrHFc86gDj1dXV/dJoVDY7TjO5xRl50TkBMnLANqu6/bHcTwjIldF5Har1aq4rvsVwICqLnVWw/f9UwCs3f090JaFiIg1ZBCA3ZEHAA4CGAbwCcBrAKdJeqoa9S7tBMnZDQqnAVwBMLTV5nfvTAeWz+ddx3EWVdUqCERkyBizC4B1qqGq+7eCWUMAvOjAJicns8aYvXNzc+83Fk1NTeWjKKrbQac+IxG7yMPpGT2VxWLxeiaTmdkMZoxhX1/faLVaffRfMAspFotHMplMHsCx7l5+JGnf8Z4wDEdszh9OTPcg2V6ReAAAAABJRU5ErkJggg==);
+}
+.content-items .content-item .jieshao .xinxi .phone.data-v-4369964a {
+            background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAUCAYAAABroNZJAAADL0lEQVQ4T42UXWgdRRTH58zsTgwYRG24CH3wW0SESrEWfZAiYt+qQvxAENRUsrsz917zoSJCLiqUkHjd2d3J3KugqFgUFTUW+tiHgsUPUBB8EVKkL5WAIBJidnfmyF68YXObQudt5j/nd/5n9pwFQggJw/AAY+xDRLyLEMIQcVlr/XKlXckCKeVh59w5SulpROxRSq8hhHxUFMWiMeaNK4U4Suk3SqnHhgFhGC5SSjtZllFCCA7PhRCPAMCRNE1frcMhiiLUWsNIxsqhK8vymDFmbagtLCzctrm5eRYR942Pj9/b7XZ/rrQKcl5rfdOobSHEn9bak8aYl4aalPJQmqY/SCnfJYQcZ4zdEsfxOgghfs2y7O49IP9SSntJkrRr5Xzved6tcRxfPzMz8zVj7EGt9bWVk3Wt9c11iJTyaefcSUQ8tLq6+mOlSSkVY+yDsixVURRX9/v9g1JK9DwvqGr/K03T64aQKIoUADSttSvGmIXa+RlCyJ2+7x9xzv3GGNuf5/nHiEiqchxj7D6l1CBjGIbo+/47SqnZ0RKrzM65JQB4BQAOOOfeAoB9EIbhBcbYmTRNn62CgiAwnPNHlVI31CGdTodubGw8ZK39m1L6cFmWfc75BiHkUwiCQPq+nyRJsvOZKzcAsKS13tUPdejU1BRvNBrtiYmJtUFgEATIOW8ppZJq3263X8zzvA8AN2qt/2g2m0ettWOTk5PfdjodN1rmACKEkISQJMuyHTdCiC8B4HEA+MRa+wwh5B9CyFWU0hNpmi7u6tjhptVqXczz/BdjzNFac5211h6uHpFzvm6tlWVZLnme912SJA8M7+1knp6e3s85v+CcC3u9nrnc4LVarQYAXCyKYk1rfWzQ9vXL8/PzT2xtbX3mnNs1M6PAubm5g9vb2z95nnd/HMfnRgePNJvNWWvt25TSF9I0ff9yjoQQaK09YYx57RJIFRRF0TQAvEcp/Zxz/tzKyspmHRYEweu+7785NjZ2+/Ly8u97Qv6flXucc18BQAMRTyHiF5TSbUrpk4j4VFmWwhijL3mTvaxLKZ9HxOMAcAciVj+p85zz2W63W83SYP0HGwRuZOAx+MYAAAAASUVORK5CYII=);
+}
+.content-items .content-item .jieshao .xinxi .qq.data-v-4369964a {
+            background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAATCAYAAAB2pebxAAAB4ElEQVQ4T53TPYgTQRQH8P/bmcWAWmiRaGMhCgeKwhViKwhXHdeL2B1hM8skIIiFVhG0kFyyIbCR7RSuiIUIggg2IlqJWFiKhWDw48DKkN3xjUzIHdmYI4lTvnnvx3tvZwn7nCAIjkgp1621pwD8FkK8abVar2al06ygUiogopsATkzdP5NSbjabzf5k/B9EKXVLCFFn5pk9EtGvwWCwkiTJt92EHBIEwTkhxIf9RtwrInrZbrcvz0S01k+YeWMBBFmWrcZx/N7l5joJw/ArgOPzEDdqoVCoNhqNKIdUKpVDnuf9BHBgHpKmKUql0p16vX47h4RhuAbg+TxgVESENE0/drvdszlEa91k5uoiyG6OMaYUx/H30U7K5fK67/tPlwFcLjO/KxaLF2i8ix8ACssiQgg31l2q1Wo1Y8zWsoDL9zzPIUMKw/AtgIv/g1hrR5BD7BgwAOQymEPcl3I7eeD7/iPP866mabrpgoseKeWlLMuO5SqUUp+I6OQ8xHUghLgeRVFj+rFdAXB/kWfvCq21j4fD4Y0kST7vdaK13mHmo9NdENFrZj5PRIcn78bdXIui6OEkctoYc4+IVonoIIAda+2LTqdTVUqdISL3s60A8Jn5i5Ryu9/vb/V6vT9/AQLXtKlCti/wAAAAAElFTkSuQmCC);
+}
+.content-items .content-item .jieshao .pic image.data-v-4369964a {
+          width: 140rpx;
+          height: 140rpx;
+          position: absolute;
+          top: 36rpx;
+          right: 14rpx;
+}
+.content-items .content-item .contact.data-v-4369964a {
+        width: 100%;
+        height: 54rpx;
+        color: #A1A1A1;
+        line-height: 54rpx;
+}
+.content-items .content-item .contact view.data-v-4369964a {
+          display: inline-block;
+}
+.content-items .content-item .contact view image.data-v-4369964a {
+            width: 24rpx;
+            height: 24rpx;
+            margin-right: 6rpx;
+            vertical-align: middle;
+}
+.content-items .content-item .contact navigator.data-v-4369964a {
+          display: inline-block;
+}
+.content-items .content-item .contact .liaotian.data-v-4369964a {
+          margin-left: 140rpx;
+}
+.content-items .content-item .contact .call.data-v-4369964a {
+          margin-right: 140rpx;
+          float: right;
+}
+

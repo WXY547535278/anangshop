@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "交易物流详情",
+  "usingComponents": {
+    "my-like": "/components/cainiXihuan/xihuan"
+  }
+}

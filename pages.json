@@ -1,0 +1,143 @@
+{
+	"pages": [
+		//pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+		    "path" : "pages/login/zhanghao",
+		    "style" : {
+				"navigationBarTitleText":"账号登录"
+				// "enablePullDownRefresh": true//允許上拉加載
+				}
+		},
+		{
+		    "path" : "pages/tabbar/tabbar-4/chat",
+		    "style" : {
+				"navigationBarTitleText":"聊天"
+				// "enablePullDownRefresh": true//允許上拉加載
+			}
+		},
+		{
+			"path": "pages/tabbar/tabbar-4/tabbar-4",
+			"style": {
+				"navigationBarTitleText":"客服"
+				// "enablePullDownRefresh": true//允許上拉加載
+			}
+		},
+		{
+		    "path" : "pages/login/forgetPwd",
+		    "style" : {
+				"navigationBarTitleText":"忘记密码"
+				// "enablePullDownRefresh": true//允許上拉加載
+			}
+		},
+		{
+		    "path" : "pages/register/register",
+		    "style" : {
+				"navigationBarTitleText":"注册"
+				// "enablePullDownRefresh": true//允許上拉加載
+			}
+		},
+		{
+		    "path" : "pages/tabbar/tabbar-3/transactionDetail",
+		    "style" : {
+				"navigationBarTitleText":"交易物流详情"
+				// "enablePullDownRefresh": true//允許上拉加載
+			}
+		},
+		{
+		    "path" : "pages/tabbar/tabbar-3/notice",
+		    "style" : {
+				"navigationBarTitleText":"通知消息"
+				// "enablePullDownRefresh": true//允許上拉加載
+			}
+		},
+		{
+		    "path" : "pages/tabbar/tabbar-3/transaction",
+		    "style" : {
+				"navigationBarTitleText":"交易物流",
+				"enablePullDownRefresh": true//允許上拉加載
+			}
+		},
+		{
+			"path": "pages/tabbar/tabbar-1/tabbar-1",
+			"style": {
+				"navigationBarTitleText":"首页"
+				// "enablePullDownRefresh": true//允許上拉加載
+			}
+		},
+		{
+			"path": "pages/tabbar/tabbar-2/tabbar-2",
+			"style": {
+				"navigationBarTitleText":"订单",
+				"enablePullDownRefresh": true//允許上拉加載
+			}
+		},
+		{
+			"path": "pages/tabbar/tabbar-3/tabbar-3",
+			"style": {
+				"navigationBarTitleText":"消息"
+				// "enablePullDownRefresh": true//允許上拉加載
+			}
+		},
+		{
+			"path": "pages/tabbar/tabbar-2/dingdanXiangqing",
+			"style": {
+				"navigationBarTitleText":"订单详情"
+				// "enablePullDownRefresh": true//允許上拉加載
+			}
+		},
+	    {
+            "path" : "pages/tabbar/tabbar-3/hudong",
+            "style" : {
+				"navigationBarTitleText":"互动"
+				// "enablePullDownRefresh": true//允許上拉加載
+			}
+        },
+		{
+		    "path" : "pages/login/duanxin",
+		    "style" : {
+				"navigationBarTitleText":"短信登录"
+				// "enablePullDownRefresh": true//允許上拉加載
+			}
+		}
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#fff",
+		"navigationStyle": "custom"
+	},
+	"tabBar": {
+		"borderStyle":"white",
+		// "border": "none",
+		// "font-size": "16rpx",
+		"backgroundColor": "#fff",
+		"color": "#8F8F94",
+		"selectedColor": "#FF4302",
+		"list": [{
+				"pagePath": "pages/tabbar/tabbar-1/tabbar-1",
+				"iconPath": "static/img/tabbar/index.png",
+				"selectedIconPath": "static/img/tabbar/index.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/tabbar/tabbar-2/tabbar-2",
+				"iconPath": "static/img/tabbar/dingdan.png",
+				"selectedIconPath": "static/img/tabbar/dingdan2.png",
+				"text": "订单"
+			},
+			{
+				"pagePath": "pages/tabbar/tabbar-3/tabbar-3",
+				"iconPath": "static/img/tabbar/message.png",
+				"selectedIconPath": "static/img/tabbar/message2.png",
+				"text": "消息"
+			},
+			{
+				"pagePath": "pages/tabbar/tabbar-4/tabbar-4",
+				"iconPath": "static/img/tabbar/kefu.png",
+				"selectedIconPath": "static/img/tabbar/kefu2.png",
+				"text": "客服"
+			}
+		]
+	}
+}
